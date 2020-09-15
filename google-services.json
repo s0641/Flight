@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "303014660710",
+    "firebase_url": "https://flybooking12.firebaseio.com",
+    "project_id": "flybooking12",
+    "storage_bucket": "flybooking12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303014660710:android:09a3095d5493f63c853ba7",
+        "android_client_info": {
+          "package_name": "com.app.fly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303014660710-mtfrtqmjg3eeo064r7j3smi6ldimjoh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3gqKl-RhTddlPZ05C90lVwyAewUfBZuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303014660710-mtfrtqmjg3eeo064r7j3smi6ldimjoh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
