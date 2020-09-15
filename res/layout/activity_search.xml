@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Search">
-
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="900dp">
 
     <ImageView
         android:id="@+id/profileImage"
@@ -92,15 +94,6 @@
         android:background="@drawable/et_style"
         android:text="Change profile" />
 
-    <WebView
-        android:id="@+id/webView"
-        android:layout_width="258dp"
-        android:layout_height="111dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="431dp" />
-
     <Button
         android:id="@+id/search"
         android:layout_width="259dp"
@@ -111,4 +104,16 @@
         android:layout_marginTop="572dp"
         android:text="Start Searching"
         android:background="@drawable/selector"/>
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="650dp"
+        android:text="Contact US"
+        android:background="@drawable/et_style"/>
 </RelativeLayout>
+</ScrollView>
