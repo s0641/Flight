@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
-import android.webkit.WebView;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
@@ -32,7 +31,7 @@ public class Search extends AppCompatActivity {
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     String userId;
-    Button resendCode,changeprofileImage,fsearching;
+    Button resendCode,changeprofileImage,fsearching,conta;
     ImageView profileImage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +47,8 @@ public class Search extends AppCompatActivity {
         verifyMsg=findViewById(R.id.verifyMsg);
         profileImage=findViewById(R.id.profileImage);
         changeprofileImage=findViewById(R.id.changeProfile);
+        conta=findViewById(R.id.contact);
+
         fsearching=findViewById(R.id.search);
         fsearching.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,9 +58,13 @@ public class Search extends AppCompatActivity {
             }
         });
 
-
-        WebView mywebview = (WebView) findViewById(R.id.webView);
-        mywebview.loadUrl("https://www.javatpoint.com/");
+        conta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Search.this,Contact.class);
+                startActivity(intent);
+            }
+        });
 
 
 
@@ -108,6 +113,8 @@ public class Search extends AppCompatActivity {
             }
         });
     }
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
