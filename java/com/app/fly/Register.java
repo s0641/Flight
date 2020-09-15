@@ -31,7 +31,7 @@ public class Register extends AppCompatActivity {
 
     public static final String TAG = "TAG";
     EditText mFullName,mEmail,mPassword,mPhone;
-    Button mRegisterBtn;
+    Button mRegisterBtn,conta;
     TextView mLoginBtn;
     FirebaseAuth fAuth;
     FirebaseFirestore fstore;
@@ -50,7 +50,14 @@ public class Register extends AppCompatActivity {
         mLoginBtn=findViewById(R.id.createText);
         fAuth=FirebaseAuth.getInstance();
         fstore=FirebaseFirestore.getInstance();
-
+        conta=findViewById(R.id.con);
+        conta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Register.this,Contact.class);
+                startActivity(intent);
+            }
+        });
 
 
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {
