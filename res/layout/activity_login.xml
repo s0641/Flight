@@ -79,4 +79,15 @@
         android:text="Forgot Password"
         android:textColor="#F44336"
         android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/supp"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="644dp"
+        android:background="@drawable/et_style"
+        android:text="Contact Us" />
 </RelativeLayout>
