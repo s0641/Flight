@@ -4,115 +4,108 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Register">
+    tools:context=".Register"
+    android:layout_gravity="center">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="900dp">
+        android:layout_height="900dp"
+        android:layout_centerHorizontal="true">
 
-    <TextView
-        android:id="@+id/t1"
-        android:layout_width="221dp"
-        android:layout_height="41dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="95dp"
-        android:layout_marginTop="93dp"
-        android:text="REGISTERATION FORM"
-        android:textSize="20dp" />
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="221dp"
+            android:layout_height="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="93dp"
+            android:layout_centerHorizontal="true"
+            android:text="REGISTERATION FORM"
+            android:textSize="20dp" />
 
-    <TextView
-        android:id="@+id/t2"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="93dp"
-        android:layout_marginTop="148dp"
-        android:text="    Create New Account"
-        android:textSize="20dp" />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="148dp"
+            android:layout_centerHorizontal="true"
+            android:text="    Create New Account"
+            android:textSize="20dp" />
 
-    <EditText
-        android:id="@+id/fullName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="214dp"
-        android:ems="10"
-        android:hint="Enter full Name"
-        android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="214dp"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Enter full Name"
+            android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/Email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="286dp"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="textEmailAddress" />
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="286dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
 
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="356dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="356dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
 
-    <EditText
-        android:id="@+id/phone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="98dp"
-        android:layout_marginTop="433dp"
-        android:ems="10"
-        android:hint="Phone"
-        android:inputType="text|number" />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="433dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="text|number" />
 
-    <Button
-        android:id="@+id/registerBtn"
-        android:layout_width="213dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:background="@drawable/et_style"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="513dp"
-        android:text="Register" />
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="513dp"
+            android:background="@drawable/et_style"
+            android:text="Register" />
 
-    <TextView
-        android:id="@+id/createText"
-        android:layout_width="207dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="107dp"
-        android:layout_marginTop="580dp"
-        android:text="Already Registered? Click here to Login"
-        android:textColor="#3F51B5"
-        android:textSize="20dp" />
+        <TextView
+            android:id="@+id/createText"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="580dp"
+            android:text="Already Registered? Click here to Login"
+            android:textColor="#3F51B5"
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/con"
             android:layout_width="225dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="94dp"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="680dp"
-            android:text="Contact US"
-            android:background="@drawable/selector"/>
+            android:background="@drawable/selector"
+            android:text="Contact US" />
     </RelativeLayout>
 
 </ScrollView>
